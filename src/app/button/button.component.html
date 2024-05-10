@@ -1,0 +1,14 @@
+<div class="btn">
+  <button (click)="displayText()">Click Me</button>
+</div>
+<div class="welcome" *ngIf="showText">
+  {{ displayTextMessage }}
+</div>
+<div class="clr-container">
+  <input
+    type="text"
+    [(ngModel)]="typedColor"
+    placeholder="ex. #000000, hsl(300, 100%, 50%), rgb(250,250,250)"
+  />
+  <div [style.backgroundColor]="typedColor" class="clr"></div>
+</div>

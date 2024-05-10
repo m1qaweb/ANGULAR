@@ -1,0 +1,65 @@
+header {
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  color: white;
+  letter-spacing: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    45deg,
+    hsl(318, 100%, 60%, 0.3),
+    hsl(313, 100%, 60%, 0.3),
+    hsl(295, 100%, 60%, 0.3),
+    hsl(286, 100%, 60%, 0.3),
+    hsl(278, 100%, 60%, 0.3),
+    hsl(271, 100%, 60%, 0.3)
+  );
+}
+.title {
+  white-space: nowrap;
+  animation: clr-animation 5s ease infinite;
+}
+.letter {
+  font-weight: bold;
+  font-size: 55px;
+  display: inline-block;
+  width: 65px;
+  height: auto;
+  text-align: center;
+}
+
+.letter:nth-child(1) {
+  color: hsl(340, 100%, 50%);
+}
+.letter:nth-child(2) {
+  color: hsl(310, 100%, 50%);
+}
+.letter:nth-child(3) {
+  color: hsl(300, 100%, 50%);
+}
+.letter:nth-child(4) {
+  color: hsl(278, 100%, 50%);
+}
+.letter:nth-child(5) {
+  color: hsl(265, 100%, 51%);
+}
+.letter:nth-child(7) {
+  color: hsl(340, 100%, 50%);
+}
+.letter:nth-child(8) {
+  color: hsl(310, 100%, 50%);
+}
+.letter:nth-child(9) {
+  color: hsl(300, 100%, 50%);
+}
+.letter:nth-child(10) {
+  color: hsl(285, 100%, 50%);
+}
+.letter:nth-child(11) {
+  color: hsl(278, 100%, 50%);
+}
+.letter:nth-child(12) {
+  color: hsl(265, 100%, 51%);
+}
